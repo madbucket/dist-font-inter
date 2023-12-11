@@ -1,6 +1,6 @@
 {
   "name": "dist-font-inter",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "A dist package for the beautiful Inter font",
   "main": "dist/inter.css",
   "files": [
