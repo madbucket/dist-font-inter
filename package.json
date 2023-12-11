@@ -2,7 +2,7 @@
   "name": "dist-font-inter",
   "version": "4.0.0",
   "description": "A dist package for the beautiful Inter font",
-  "main": "dist/index.css",
+  "main": "dist/inter.css",
   "files": [
     "dist"
   ],
