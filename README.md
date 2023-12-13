@@ -11,13 +11,29 @@ npm i --save dist-font-inter
 
 ## Usage
 
-Import Inter:
+Import the static Inter font:
 
 ```js
 import "dist-font-inter";
 ```
 
 And use it in your styles as follows:
+
+```CSS
+body {
+  font-family: "Inter";
+}
+```
+
+### Variable Font
+
+Alternatively, it is also possible to import the variable font:
+
+```js
+import "dist-font-inter/variable";
+```
+
+And then used it as follows:
 
 ```CSS
 body {
