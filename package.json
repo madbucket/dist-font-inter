@@ -2,10 +2,20 @@
   "name": "dist-font-inter",
   "version": "4.0.1",
   "description": "A dist package for the beautiful Inter font",
-  "main": "dist/inter.css",
+  "main": "index.css",
+  "exports": {
+    ".": "index.css",
+    "./variable": "./variable.css"
+  },
   "files": [
-    "dist"
+    "dist",
+    "index.css",
+    "variable.css"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madbucket/dist-font-inter.git"
+  },
   "scripts": {
     "download": "sh ./download.sh"
   },
