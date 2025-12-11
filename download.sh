@@ -1,6 +1,6 @@
 #!/bin/bash
 
-version="4.0"
+version="4.1"
 
 curl -L -o inter.zip "https://github.com/rsms/inter/releases/download/v${version}/Inter-${version}.zip"
 unzip inter.zip -d tmp
